@@ -1,0 +1,14 @@
+﻿
+@import "tailwindcss";
+
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    /* padding: 2rem; */ /* Тимчасово вимкни, щоб подивитись */
+    /* text-align: center; */ /* Можна теж прибрати, щоб дивитись */
+}
+
+th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
