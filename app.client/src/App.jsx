@@ -44,7 +44,7 @@ export default function App() {
     console.log("User state:", user);
 
     return (
-        <GoogleOAuthProvider clientId="446631909658-vvbdjfbfqhhs0en5inpl4glf6m21uh2m.apps.googleusercontent.com">
+        <GoogleOAuthProvider clientId="446631909658-7hodsgfqhug6mtk2bqmcksfi13b2tr69.apps.googleusercontent.com">
             <h1 className="text-2xl font-bold ">Google Login</h1>
             <div className="mt-4">
                 <GoogleLogin onSuccess={handleSuccess} onError={handleError} />
